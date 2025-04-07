@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Pet Paradise</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="cart.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>🐶 Pet Paradise 🐱</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <!-- <li><a href="login.html">Login</a></li> -->
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Shop More Pet Products</h2>
+
+    <section id="products" class="product-list">
+
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQahzBWYBk14IG4djDB8b6QBcLIZYb2Byg7H2C7NT0OcSJyuK0z36S0POAgjQ9bQBo03RvpehSq3ulsQBJk3QvkOz7kchTI-BcrooavtFqS9YwxoL9tDFaG0Q " alt="Dog Food">
+            <h3>Premium Dog Food</h3>
+            <p>$15.99</p>
+            <button onclick="addToCart('Premium Dog Food', 15.99)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.meesho.com/images/products/474987423/t5wgw_1200.jpg" alt="Cat Bed">
+            <h3>Cozy Cat Bed</h3>
+            <p>$25.99</p>
+            <button onclick="addToCart('Cozy Cat Bed', 25.99, 'cat-bed')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://m.media-amazon.com/images/I/613vGRQ0UmL.jpg" alt="Dog Toy">
+            <h3>Chewable Dog Toy</h3>
+            <p>$9.99</p>
+            <button onclick="addToCart('Chewable Dog Toy', 9.99, 'dog-toy')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQQTkyeYhaPkJRt87mZotLZHynzJC7jPQ3GodzownvVN3fIOrW8bA-brN87fO1EpSYIPPKw_6Y5i-lmPEMQo9FSXtE0G3THLdX3RrV4OOs7ZmMrVDz6X96l" alt="Grooming Kit">
+            <h3>Pet Grooming Kit</h3>
+            <p>$19.99</p>
+            <button onclick="addToCart('Pet Grooming Kit', 19.99, 'pet-grooming')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://m.media-amazon.com/images/I/51M4yCU8oHL.jpg" alt="Dog Leash">
+            <h3>Durable Dog Leash</h3>
+            <p>$12.99</p>
+            <button onclick="addToCart('Durable Dog Leash', 12.99, 'dog-leash')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSskjQZECT4bGVmNl0USF6qNRM1A_XyKrl1sJ-oJRZTET-TzChn6gogJ-EHVJ1Ni1AFEPX0mSoci26qHpBRkLESWe8IqT1U8pGnGhMZ39_9ypwrmu2TEfug62Q" alt="Cat Tree">
+            <h3>Multi-Level Cat Tree</h3>
+            <p>$45.99</p>
+            <button onclick="addToCart('Multi-Level Cat Tree', 45.99, 'cat-tree')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTZRpNaB7YGZ52cv1xsWv6ty_X3w6NPIpopLY0uiQzMVvDt1Jtn6oNe6JTZTf6osWSW9GE8m337HtwvND4gS4uK-X2T2RWa6Eiqfx8LSMH_KpQXTFEBSutU" alt="Pet Carrier">
+            <h3>Portable Pet Carrier</h3>
+            <p>$34.99</p>
+            <button onclick="addToCart('Portable Pet Carrier', 34.99, 'pet-carrier')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSNMZFP277aO7a7G1FfWo_A0Bb5XKLZyJbpb5vfHNf4ULUQNQEXDLtgAAJOO5cbVIQGlkHpWeHjpFHtxIua3vD2afNJOJSupf5fIaRhFkujyOxboDv4q93M1A" alt="Pet Bowl">
+            <h3>Automatic Water Dispenser</h3>
+            <p>$17.99</p>
+            <button onclick="addToCart('Automatic Water Dispenser', 17.99, 'pet-bowl')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://m.media-amazon.com/images/I/41VURcYedZL._SY300_SX300_QL70_FMwebp_.jpg" alt="Dog Clothes">
+            <h3>Winter Dog Jacket</h3>
+            <p>$29.99</p>
+            <button onclick="addToCart('Winter Dog Jacket', 29.99, 'dog-clothes')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://i.etsystatic.com/9344228/r/il/924bd0/3756600185/il_1588xN.3756600185_gno4.jpg" alt="Dog House">
+            <h3>Large Wooden Dog House</h3>
+            <p>$99.99</p>
+            <button onclick="addToCart('Large Wooden Dog House', 99.99, 'dog-house')">Add to Cart</button>
+        </div>
+
+        <!-- New Products for More Scroll -->
+        <div class="product">
+            <img src="https://rukminim2.flixcart.com/image/1200/1200/l4hcx3k0/aquarium-tank/x/1/x/5-25-6-acrylic-fish-tank-for-small-betta-fish-plants-tank-0010i-original-imagfdcufgybfmcx.jpeg" alt="Fish Tank">
+            <h3>Glass Fish Tank</h3>
+            <p>$55.99</p>
+            <button onclick="addToCart('Glass Fish Tank', 55.99, 'fish-tank')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSZR7eespKLtKL744PZS7TLKTAnmMc38uZ02bqSqIUShMNHMxKX8Ckx1XPS9Xb-qN0T3jh8MXLYRJ0AaNbJ37X4u3IrlrBYUoPQ-vKnBnCPbiyPBDoc7YC2" alt="Bird Cage">
+            <h3>Spacious Bird Cage</h3>
+            <p>$39.99</p>
+            <button onclick="addToCart('Spacious Bird Cage', 39.99, 'bird-cage')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://m.media-amazon.com/images/I/814bXEpUjQL.jpg" alt="Rabbit Hutch">
+            <h3>Outdoor Rabbit Hutch</h3>
+            <p>$74.99</p>
+            <button onclick="addToCart('Outdoor Rabbit Hutch', 74.99, 'rabbit-hutch')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://m.media-amazon.com/images/I/713lHuSREUL.jpg" alt="Pet Shampoo">
+            <h3>Organic Pet Shampoo</h3>
+            <p>$14.99</p>
+            <button onclick="addToCart('Organic Pet Shampoo', 14.99, 'pet-shampoo')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://m.media-amazon.com/images/I/61nl1j7gYvS.jpg" alt="Pet Blanket">
+            <h3>Soft Fleece Pet Blanket</h3>
+            <p>$22.99</p>
+            <button onclick="addToCart('Soft Fleece Pet Blanket', 22.99, 'pet-blanket')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://m.media-amazon.com/images/I/71QRxHsliEL.jpg" alt="Cooling Dog Mat">
+            <h3>Self-Cooling Dog Mat</h3>
+            <p>$27.99</p>
+            <button onclick="addToCart('Self-Cooling Dog Mat', 27.99, 'dog-mat')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTHjNbcAjB0r8gNmox5NqW7KyfaLzh9YtL4by_eoxSmKt2IfnMSUyJM-mJvR7VgHKlK-W2SbVqrkAWx-cPR3UpRY-rCR16tXZbD23V6bMptzaPDxn2K-PlCtw" alt="Pet Harness">
+            <h3>Adjustable Pet Harness</h3>
+            <p>$19.99</p>
+            <button onclick="addToCart('Adjustable Pet Harness', 19.99, 'pet-harness')">Add to Cart</button>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pet Paradise. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
